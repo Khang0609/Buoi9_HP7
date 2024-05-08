@@ -1,0 +1,43 @@
+header{
+    position: relative;
+}
+
+.shopping-mall{
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(238, 130, 130);
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 4px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall>h5{
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+    color: rgb(86, 124, 248);
+}
+
+.poly-cart{
+    margin-top: 5px;
+}
+
+.poly-cart ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-variant: small-caps;
+}
+
+.poly-cart .panel-body strong{
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 4px darkgrey;
+}
